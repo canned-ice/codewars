@@ -16,8 +16,7 @@ function isNice(arr) {
         value = true;
       }
       else {
-        value = false;
-        console.log('else fired');
+        return false;
 
       }
     }
